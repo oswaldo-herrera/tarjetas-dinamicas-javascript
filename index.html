@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="plugin/components/Font Awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
+    <link rel="stylesheet" href="./css/pc.css" media="(min-width: 930px" />
+    <link rel="icon" href="./img/logo_saldos_bajio.png" type="image/x-icon" /> 
+    <title>Saldos Americanos | Estado de México</title
+</head>
+<body>
+
+
+
+    <header id="header" class="header">
+        <div class="container">     
+            <img src="./img/logo_saldos_bajio.jpg" id="logo" class="logo">
+           
+        </div>
+    </header>
+
+    <div id="hero" class="hero">
+        
+        <img src="./img/portada.jpg" alt="" class="portada">
+        
+    </div>
+
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns ">
+                        <p>Precio </p>
+                    </div>
+                    <div class="four columns  ">
+                        <p>Calidad</p>
+                    </div>
+                    <div class="four columns ">
+                        <p>Seguridad</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section_cards">
+        <div id="lista-cursos" class="container conpc">
+            <!-- <h1 id="encabezado" class="encabezado">Catalogo de productos</h1> -->
+
+            
+
+
+
+            
+            
+        </div><!--container-->    
+    </section>
+
+    <footer class="container-ubicacion">
+        <div class="ubicacion">
+            <h3>Nos encontramos:</h3>
+            <p>Bosques del Lago | Estado de México </p>
+        </div>
+    </footer>
+
+
+    <!-- Button Whatsapp Structure -->
+	<div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
+		<div class="wcs_button_label">
+				Estamos en línea
+			</div>  
+		<div class="wcs_button wcs_button_circle">
+			<span class="fa fa-whatsapp"></span>
+		</div>  
+
+		<div class="wcs_popup">
+			<div class="wcs_popup_close">
+				<span class="fa fa-close"></span>
+			</div>
+			<div class="wcs_popup_header">
+				<span class="fa fa-whatsapp"></span>
+				<strong>Tienes dudas pregúntanos</strong>
+				
+				<div class="wcs_popup_header_description">Chatea con nosotros en Whatsapp</div>
+	
+			</div>  
+			<div class="wcs_popup_input" 
+				data-number="525546011393"
+				data-availability='{ "monday":"00:00-22:30", "tuesday":"00:00-22:30", "wednesday":"00:00-22:30", "thursday":"00:00-22:30", "friday":"00:00-22:30", "saturday":"00:00-18:30", "sunday":"09:00-22:30" }'>
+				<input type="text" placeholder="Escribe tu pregunta!" />
+				<i class="fa fa-play"></i>
+			</div>
+			<div class="wcs_popup_avatar">
+				<img src="./img/en_linea.jpg" alt="" style="width: 400;">
+			</div>
+		</div>
+	</div>
+	
+	
+		<!-- jQuery 1.8+ -->
+	<script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+		<!-- Plugin JS file -->
+	<script src="plugin/components/moment/moment.min.js"></script>
+	<script src="plugin/components/moment/moment-timezone-with-data.min.js"></script> <!-- spanish language (es) -->
+	<script src="plugin/whatsapp-chat-support.js"></script>
+	<script>
+	   $('#button-w').whatsappChatSupport({
+			defaultMsg : '',
+		});
+	</script>
+    <!-- fin de whats -->
+    <script src="./db.js"></script>
+    <script src="./main.js"></script>
+    <script src="./plugin/whatsapp-chat-support.js"> </script>
+</body>
+</html>
